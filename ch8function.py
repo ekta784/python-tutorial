@@ -27,3 +27,4 @@ def cat(name,color="red"):
     print("hii "+ name)
     print(color) #by default red or else what we gave is the output
 cat("tom")
+cat("tom3","blue")
