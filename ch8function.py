@@ -1,12 +1,12 @@
-# # average of 3 numbers using function
-# def avg():  #function defination
-#     a=int(input("enter a number"))
-#     b=int(input("enter a number"))
-#     c=int(input("enter a number"))
-#     average=(a+b+c)/3
-#     print(average)
+# average of 3 numbers using function
+def avg():  #function defination
+    a=int(input("enter a number"))
+    b=int(input("enter a number"))
+    c=int(input("enter a number"))
+    average=(a+b+c)/3
+    print(average)
 
-# avg() #function call
+avg() #function call
 
 # function with argumets
 def args(name,name2):
