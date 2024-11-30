@@ -42,3 +42,30 @@ else:
     #     print("you lose!")
     # else:
     #     print("you win!!")
+
+    # or a chatgpt code 
+    # import random
+
+# # Dictionary mapping choices to their names
+# choices = {"s": "Snake", "w": "Water", "g": "Gun"}
+
+# # Computer randomly selects a choice
+# computer = random.choice(["s", "w", "g"])
+
+# # User input
+# you = input("Enter your choice (s for Snake, w for Water, g for Gun): ").lower()
+
+# # Check if input is valid
+# if you not in choices:
+#     print("Invalid input. Please enter 's', 'w', or 'g'.")
+# else:
+#     print(f"You chose: {choices[you]}")
+#     print(f"Computer chose: {choices[computer]}")
+
+#     # Determine the winner
+#     if you == computer:
+#         print("It's a draw!")
+#     elif (you == "s" and computer == "w") or (you == "w" and computer == "g") or (you == "g" and computer == "s"):
+#         print("You win!")
+#     else:
+#         print("You lose!")
