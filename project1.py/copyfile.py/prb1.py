@@ -1,3 +1,4 @@
+# copy the content of this file
 with open("this.txt")as f:
     content=f.read()
 
