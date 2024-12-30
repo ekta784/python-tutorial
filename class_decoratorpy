@@ -1,0 +1,23 @@
+# class emp:
+#     a=1
+#     def show(self):
+#         print(f"value of a is {self.a}")
+
+# e= emp()
+# e.a=45
+# print(e.show())
+
+# output is 45 as a instance value is high priority
+# op=45
+
+# for print tha class valur directly
+class emp:
+    a=1
+    @classmethod
+    def show(cls):
+        print(f"value of a is {cls.a}")
+
+e= emp()
+e.a=45
+print(e.show())
+# po=1

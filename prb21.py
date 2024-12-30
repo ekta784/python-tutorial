@@ -1,0 +1,29 @@
+#sum and multiplication of complex number
+class complex:
+    def __init__(self, i, r):
+        self.i = i  # Imaginary part
+        self.r = r  # Real part
+
+    # Addition of two complex numbers
+    def __add__(self, c2):
+        return complex(self.r + c2.r, self.i + c2.i)
+
+    # Multiplication of two complex numbers
+    def __mul__(self, c2):
+        real_part = self.r * c2.r - self.i * c2.i  # (a + bi) * (c + di) = ac - bd + (ad + bc)i
+        imag_part = self.r * c2.i + self.i * c2.r
+        return complex(imag_part, real_part)
+
+    # String representation for the complex number
+    def __str__(self):
+        return f"{self.r} + {self.i}i"
+
+# Create two complex numbers
+c1 = complex(1, 2)
+c2 = complex(3, 4)
+
+# Print the result of addition
+print("Addition: ", c1 + c2)
+
+# Print the result of multiplication
+print("Multiplication: ", c1 * c2)

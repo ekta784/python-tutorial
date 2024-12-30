@@ -1,3 +1,4 @@
+# inheriance example
 class Employee:
     company="ITC"
     def show(self):
