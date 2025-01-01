@@ -1,8 +1,3 @@
-#sum of complex numbers
-class complex:
-    def __init__(self,i,r):
-        self.i=i
-        self.r=r
-    def __add__(self, c2):
-        return complex(self.r+c2.r,self.i+c2.i)
-c1=complex(1,2)
+except Exception as e:
+#     print(e)
+# print("thank you")
